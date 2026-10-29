@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+$font-main: 'Courier New', monospace;
+$font-heading: 'Arial', sans-serif;
+
+h1, h2, h3
+{
+  font-family: $font-heading;
+  font-weight: 700;
+}
+
+p
+{
+  font-family: $font-main;
+  font-weight: 400;
+}
