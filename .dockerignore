@@ -1,0 +1,24 @@
+# --- Build Output ---
+dist/
+.angular/
+
+# --- Dependencies ---
+node_modules/
+
+# --- VCS and IDE Metadata ---
+.git/
+.gitignore
+.gitattributes
+.vscode/
+*.iml
+*.launch
+.settings/
+.history/
+__screenshots__/
+
+# --- Docs ---
+README.md
+LICENSE
+AGENTS.md
+Dockerfile
+.dockerignore
