@@ -7,7 +7,11 @@ import { FloorDto } from './floor.model';
 export class FloorService
 {
     private readonly http = inject(HttpClient);
-    private readonly apiUrl = 'http://localhost:8080/api/floor';
+
+    // Relative "/api" is set in...
+    //      Without Docker: "proxy.conf.json"
+    //      With Docker: "nginx.conf"
+    private readonly apiUrl = '/api/floor'; 
 
     getFloors(): Observable<FloorDto[]>
     {
